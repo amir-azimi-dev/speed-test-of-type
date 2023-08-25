@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "iranSansX";
+    src: url('./IranSansX/IRANSansX-Medium.eot') format('truetype'),
+    url('./IranSansX/IRANSansX-Medium.woff') format('woff'),
+    url('./IranSansX/IRANSansX-Medium.woff2') format('woff2');
+}
+
+
+body {
+    /* font-family: "iranSansX"; */
+    font-family: "Comic Sans MS";
+}
+
+header {
+    box-shadow: 4px 4px 2px;
+}
+
+#text-container {
+    box-shadow: 0.5px 0.5px 3px;
+    text-align: justify;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.active {
+    text-decoration: underline;
+    background-color: #d4d5d5;
+}
+
+.right {
+    background-color: #00f90050;
+}
+
+.wrong {
+    background-color: #ff000073;
+}
